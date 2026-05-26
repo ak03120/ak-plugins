@@ -1,0 +1,7 @@
+{
+  "name": "ak-plugins",
+  "interface": {
+    "displayName": "ak-plugins"
+  },
+  "plugins": []
+}

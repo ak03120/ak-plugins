@@ -1,0 +1,11 @@
+{
+  "name": "ak-plugins",
+  "description": "",
+  "owner": {
+    "name": "ak03120"
+  },
+  "metadata": {
+    "pluginRoot": "./plugins"
+  },
+  "plugins": []
+}
