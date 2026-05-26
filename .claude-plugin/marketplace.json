@@ -4,18 +4,15 @@
   "owner": {
     "name": "ak03120"
   },
-  "metadata": {
-    "pluginRoot": "./plugins"
-  },
   "plugins": [
     {
       "name": "conventional-commits",
-      "source": "./conventional-commits",
+      "source": "./plugins/conventional-commits",
       "description": "Conventional Commits 1.0.0 仕様で簡潔なコミットメッセージを 1 行で作成するスキル"
     },
     {
       "name": "gitmoji-commits",
-      "source": "./gitmoji-commits",
+      "source": "./plugins/gitmoji-commits",
       "description": "Gitmoji + 日本語で簡潔なコミットメッセージを 1 行で作成するスキル"
     }
   ]
