@@ -3,5 +3,28 @@
   "interface": {
     "displayName": "ak-plugins"
   },
-  "plugins": []
+  "plugins": [
+    {
+      "name": "conventional-commits",
+      "source": {
+        "source": "local",
+        "path": "./plugins/conventional-commits"
+      },
+      "policy": {
+        "installation": "AVAILABLE"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "gitmoji-commits",
+      "source": {
+        "source": "local",
+        "path": "./plugins/gitmoji-commits"
+      },
+      "policy": {
+        "installation": "AVAILABLE"
+      },
+      "category": "Developer Tools"
+    }
+  ]
 }

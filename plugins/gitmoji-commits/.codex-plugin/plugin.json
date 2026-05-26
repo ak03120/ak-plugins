@@ -1,0 +1,5 @@
+{
+  "name": "gitmoji-commits",
+  "version": "0.1.0",
+  "description": "Gitmoji と日本語の簡潔な description を組み合わせたコミットメッセージを作成するスキル"
+}

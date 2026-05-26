@@ -1,0 +1,11 @@
+{
+  "name": "gitmoji-commits",
+  "displayName": "Gitmoji + 日本語コミット",
+  "version": "0.1.0",
+  "description": "Gitmoji と日本語の簡潔な description を組み合わせたコミットメッセージを作成するスキル",
+  "author": {
+    "name": "ak03120"
+  },
+  "keywords": ["git", "commit", "gitmoji", "japanese"],
+  "skills": "./skills"
+}

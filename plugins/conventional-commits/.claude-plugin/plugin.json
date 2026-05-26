@@ -1,0 +1,11 @@
+{
+  "name": "conventional-commits",
+  "displayName": "Conventional Commits",
+  "version": "0.1.0",
+  "description": "Conventional Commits 1.0.0 仕様に従って簡潔なコミットを作成するスキル",
+  "author": {
+    "name": "ak03120"
+  },
+  "keywords": ["git", "commit", "conventional-commits"],
+  "skills": "./skills"
+}

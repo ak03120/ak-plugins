@@ -1,0 +1,4 @@
+interface:
+  display_name: "Gitmoji + 日本語コミット"
+  short_description: "Gitmoji と日本語の簡潔な description でコミットする"
+  default_prompt: "$gitmoji-commits を使って、現在ステージされている変更を Gitmoji と日本語の簡潔な description で GPG 署名付きでコミットしてください。push はしません。"

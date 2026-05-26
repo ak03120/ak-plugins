@@ -7,5 +7,16 @@
   "metadata": {
     "pluginRoot": "./plugins"
   },
-  "plugins": []
+  "plugins": [
+    {
+      "name": "conventional-commits",
+      "source": "./conventional-commits",
+      "description": "Conventional Commits 1.0.0 仕様で簡潔なコミットメッセージを 1 行で作成するスキル"
+    },
+    {
+      "name": "gitmoji-commits",
+      "source": "./gitmoji-commits",
+      "description": "Gitmoji + 日本語で簡潔なコミットメッセージを 1 行で作成するスキル"
+    }
+  ]
 }
