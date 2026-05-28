@@ -1,4 +1,4 @@
 interface:
-  display_name: "Conventional Commits"
+  display_name: "conventional-commits"
   short_description: "Conventional Commits 仕様で簡潔にコミットする"
   default_prompt: "$conventional-commits を使って、現在ステージされている変更を Conventional Commits 1.0.0 仕様に沿った短く簡潔なコミットメッセージで GPG 署名付きでコミットしてください。push はしません。"
