@@ -1,0 +1,11 @@
+{
+  "name": "glab-review",
+  "displayName": "glab-review",
+  "version": "0.1.0",
+  "description": "",
+  "author": {
+    "name": "ak03120"
+  },
+  "keywords": ["gitlab", "merge-request", "review", "glab", "code-review"],
+  "skills": "./skills/"
+}

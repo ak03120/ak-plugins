@@ -25,6 +25,17 @@
         "installation": "AVAILABLE"
       },
       "category": "Developer Tools"
+    },
+    {
+      "name": "glab-review",
+      "source": {
+        "source": "local",
+        "path": "./plugins/glab-review"
+      },
+      "policy": {
+        "installation": "AVAILABLE"
+      },
+      "category": "Developer Tools"
     }
   ]
 }

@@ -1,0 +1,4 @@
+interface:
+  display_name: "glab-review"
+  short_description: "GitLab MR の特定行に inline discussion を投稿する"
+  default_prompt: "$glab-review を使って、指定された GitLab MR の差分の特定行に inline discussion を投稿してください。複数指摘がある場合は draft note としてキューに積み、最後に bulk_publish でまとめて Submit review してください。"

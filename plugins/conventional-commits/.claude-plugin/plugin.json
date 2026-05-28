@@ -1,8 +1,8 @@
 {
   "name": "conventional-commits",
-  "displayName": "Conventional Commits",
+  "displayName": "conventional-commits",
   "version": "0.1.0",
-  "description": "Conventional Commits 1.0.0 仕様に従って簡潔なコミットを作成するスキル",
+  "description": "",
   "author": {
     "name": "ak03120"
   },

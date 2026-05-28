@@ -3,13 +3,15 @@ name: "gitmoji-commits"
 description: "Gitmoji と日本語の体言止め description を組み合わせた短いコミットメッセージを 1 行だけで作成し、GPG 署名付きでコミットする。先頭に Unicode 絵文字（必ず実体の絵文字を使い、`:sparkles:` のような shortcode 形式は使わない）を1つ置き、続けて半角スペース + 日本語で簡潔に何をしたか書く。本文・footer は使わず必ず 1 行で完結させる。Gitmoji ベースでコミットしたい、絵文字付きの日本語コミットを作りたい、ステージされた変更を絵文字付きで簡潔にコミットしてほしいと頼まれたときに使う。push は明示的に依頼されたときだけ行う。"
 ---
 
+<!-- markdownlint-disable MD013 -->
+
 # Gitmoji + 日本語コミット
 
 ステージされた変更を、先頭に Gitmoji（Unicode 絵文字）+ 日本語の簡潔な description でコミットする。GPG 署名を付け、push は明示的に依頼されたときだけ行う。
 
 ## フォーマット
 
-```
+```text
 <gitmoji> <日本語 description>
 ```
 
@@ -22,7 +24,7 @@ description: "Gitmoji と日本語の体言止め description を組み合わせ
 
 ## 絵文字の選び方
 
-gitmoji.dev の公式リスト全件（公式 API の順序に従う）。最新の追加や英語原文は https://gitmoji.dev/ を直接参照する。shortcode 列は参考表示であり、コミットメッセージには Unicode 絵文字（左列）のみを使う。
+gitmoji.dev の公式リスト全件（公式 API の順序に従う）。最新の追加や英語原文は <https://gitmoji.dev/> を直接参照する。shortcode 列は参考表示であり、コミットメッセージには Unicode 絵文字（左列）のみを使う。
 
 | 絵文字 | shortcode | 用途 |
 | --- | --- | --- |
@@ -107,7 +109,7 @@ gitmoji.dev の公式リスト全件（公式 API の順序に従う）。最新
 1. `git status` でステージ済み・未ステージの変更を把握する。
 2. `git diff --cached`（必要なら `git diff`）で変更内容を確認する。
 3. 直近のコミット履歴 `git log --oneline -10` でリポジトリの絵文字運用を確認する。
-4. 変更の主目的に最も合う絵文字を1つだけ選ぶ。表で迷う場合や該当が見当たらない場合は https://gitmoji.dev/ で公式の絵文字一覧と意味を確認する。
+4. 変更の主目的に最も合う絵文字を1つだけ選ぶ。表で迷う場合や該当が見当たらない場合は <https://gitmoji.dev/> で公式の絵文字一覧と意味を確認する。
 5. 日本語で何をしたかを短く一文で表現する（敬体は使わない）。1 行で説明しきれない場合は、コミットを分割するか description を磨き直すことを優先し、複数行にはしない。
 6. GPG 署名設定を確認してからコミットする。
 
@@ -115,7 +117,7 @@ gitmoji.dev の公式リスト全件（公式 API の順序に従う）。最新
 
 ### 良い例
 
-```
+```text
 ✨ ログイン機能を追加
 🐛 トークン期限切れ時の NPE を修正
 📝 README にインストール手順を追記
@@ -154,4 +156,4 @@ git commit -m "<gitmoji> <日本語 description>"
 
 ## 参考
 
-- Gitmoji 公式: https://gitmoji.dev/
+- Gitmoji 公式: <https://gitmoji.dev/>
